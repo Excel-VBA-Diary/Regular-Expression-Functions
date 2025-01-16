@@ -14,9 +14,9 @@ RegexReplace2: 指定された正規表現パターンに一致する文字列�
 RegexExtract2: 指定された正規表現パターンに一致する文字列を抽出します。    
 
 ### 制約条件
-正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT）は正規表現エンジン PCRE2 に準拠した仕様になっています。 
-一方、VBAで用いる正規表現ライブラリーは「Microsoft VBScript Regular Expressions 5.5」です。このライブラリーはECMA-262第3版に準拠しているため「後読み」ができません。 
-PCRE2とECMA-262の構文は基本的に同等ですが、一部で実装上の違いがあります。例えばUNICODEを指定する構文は次のように異なります。 
+正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT）は正規表現エンジン PCRE2 に準拠した仕様になっています。   
+一方、VBAで用いる正規表現ライブラリーは「Microsoft VBScript Regular Expressions 5.5」です。このライブラリーはECMA-262第3版に準拠しているため「後読み」ができません。   
+PCRE2とECMA-262の構文は基本的に同等ですが、一部で実装上の違いがあります。例えばUNICODEを指定する構文は次のように異なります。    
 PCRE2: \x{nnnn} 　（nnnnは4桁の16進数）
 ECMA-262: \unnnn　　（nnnnは4桁の16進数）
   
