@@ -13,7 +13,8 @@ Microsoft Excelの正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT�
 |RegexTest2|指定されたテキストが正規表現パターンに一致するかどうかを判定します。|   
 |RegexCount2| 指定された正規表現パターンに一致する文字列の個数をカウントします。|    
 |RegexReplace2|指定された正規表現パターンに一致する文字列を別の文字列で置換します。|    
-|RegexExtract2|指定された正規表現パターンに一致する文字列を抽出します。|    
+|RegexExtract2|指定された正規表現パターンに一致する文字列を抽出します。|  
+    
 これらのユーザー定義関数はExcelのワークシート上でもVBAの中でも使えます。   
 
 ### 制約条件
