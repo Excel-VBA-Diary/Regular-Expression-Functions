@@ -23,8 +23,8 @@ Microsoft Excelの正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT�
 PCRE2とECMA-262の構文は基本的に同等ですが、一部で実装上の違いがあります。例えばUNICODEで文字を指定する構文は次のように異なります。    
 |エンジン（フレーバー）|UNICODE文字の指定|注記|
 | :---: | :---: | :---: |
-|PCRE2|\x{nnnn}|nnnnは4桁の16進数|  
-|ECMA-262|\unnnn|nnnnは4桁の16進数|   
+|PCRE2|\x{hhhh}|hhhhは4桁の16進数|  
+|ECMA-262|\uhhhh|hhhhは4桁の16進数|   
     
     
 ## 2. 解説とソースコード   
