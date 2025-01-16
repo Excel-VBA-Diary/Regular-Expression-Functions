@@ -8,14 +8,13 @@ Microsoft Excelの正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT�
 これらの正規表現関数は、Microsoft 365のサブスクリプションを持っているユーザーが利用できます。具体的には、Excel for Microsoft 365、Excel for the web、Excel for iOS、Excel for Androidなどのバージョンで利用可能です。これ以外の環境ではこれらの正規表現関数を使うことができません。そこでVBAを使ってユーザー定義関数として４つの関数を紹介したいと思います。 
 
 ### ここで紹介する正規表現関数
-|ユーザー定義関数|概要|
-| :---: | :---           |
+|ユーザー定義関数|  概要  |
+|  :---:  |  :---  |
 |RegexTest2|指定されたテキストが正規表現パターンに一致するかどうかを判定します。|   
 |RegexCount2| 指定された正規表現パターンに一致する文字列の個数をカウントします。|    
 |RegexReplace2|指定された正規表現パターンに一致する文字列を別の文字列で置換します。|    
 |RegexExtract2|指定された正規表現パターンに一致する文字列を抽出します。|    
-  
-これらのユーザー定義関数はExcelのワークシート上でもVBAの中でも使えます。  
+これらのユーザー定義関数はExcelのワークシート上でもVBAの中でも使えます。   
 
 ### 制約条件
 正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT）は正規表現エンジン PCRE2 に準拠した仕様になっています。   
