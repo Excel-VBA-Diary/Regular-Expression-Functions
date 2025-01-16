@@ -19,8 +19,8 @@ RegexExtract2: 指定された正規表現パターンに一致する文字列�
 PCRE2とECMA-262の構文は基本的に同等ですが、一部で実装上の違いがあります。例えばUNICODEを指定する構文は次のように異なります。 
 PCRE2: \x{nnnn} 　（nnnnは4桁の16進数）
 ECMA-262: \unnnn　　（nnnnは4桁の16進数）
-
-## 2. コードと解説 
+  
+## 2. 解説とソースコード 
 ### 2.1 RegexTest2  
 テキストの任意の部分が正規表現パターンと一致するかどうか検査します。  
 Excelの正規表現関数（REGEXTEST）に準拠しています。  
@@ -93,7 +93,7 @@ End Function
 指定されたテキスト内の文字列を、パターンに一致する文字列を置換に置き換えます。  
 Excelの正規表現関数（REGEXREPLACE）に準拠していますが、違いはOccurrenceで指定できるのは 0 と 1 だけになります。この制約はVBAで用いる正規表現ライブラリーの実装上の理由によります。   
 参考： [REGEXREPLACE関数](https://support.microsoft.com/ja-jp/office/regexreplace-%E9%96%A2%E6%95%B0-9c030bb2-5e47-4efc-bad5-4582d7100897) 
- 
+  
 ```
 '-----------------------------------------------------------------------
 '指定されたテキスト内の文字列を、パターンに一致する文字列を置換に置き換える
@@ -209,6 +209,7 @@ Public Function RegexExtract2(ByVal Text As String, _
     
 End Function
 ```
-
+  
 # 3. ライセンス
 このコードはMITライセンスに基づき利用できます。  
+■  
