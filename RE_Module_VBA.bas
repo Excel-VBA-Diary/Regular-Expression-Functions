@@ -23,6 +23,7 @@ Option Explicit
 ' OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ' SOFTWARE.
 
+' Last update: January 16, 2025
 
 '-----------------------------------------------------------------------
 'テキストの任意の部分が正規表現パターンと一致するかどうか検査する
