@@ -5,7 +5,7 @@ Excelユーザーのための正規表現関数 (Regular Expression Functions fo
 
 ## 1. 概要
 Microsoft Excelの正規表現関数（REGEXTEST、REGEXREPLACE、REGEXEXTRACT）は、2024年5月にリリースされました。これらの関数は、Excelの365 Insiderプレビュー版で最初に導入されましたが、現在は一般公開されています。  
-これらの正規表現関数は、Microsoft 365のサブスクリプションを持っているユーザーが利用できます。具体的には、Excel for Microsoft 365、Excel for the web、Excel for iOS、Excel for Androidなどのバージョンで利用可能です。これ以外の環境ではこれらの正規表現関数を使うことができません。そこで、Office 20XXのExcelユーザでも正規表現関数を使えるように,４つのユーザー定義関数を紹介したいと思います。 
+これらの正規表現関数は、Microsoft 365のサブスクリプションを持っているユーザーが利用できます。具体的には、Excel for Microsoft 365、Excel for the web、Excel for iOS、Excel for Androidなどのバージョンで利用可能です。これ以外の環境ではこれらの正規表現関数を使うことができません。そこで、Office 20XXのExcelユーザーでも正規表現関数を使えるように,４つのユーザー定義関数を紹介したいと思います。 
 
 ### ここで紹介する正規表現関数
 |ユーザー定義関数|  概要  |
